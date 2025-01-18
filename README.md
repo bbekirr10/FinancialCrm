@@ -29,5 +29,6 @@
  ![6](https://github.com/user-attachments/assets/544a0873-ca1f-4321-a388-3ba9d8ea3670)
 
 :world_map:  8)Sekizinci adımda bir FrmSettings formu oluşturdum. Bu formun amacı mevcut kullanıcı adımızı ve şifremizi değiştirmemizi sağlıyor. Kullanıcı adı ve şifre değiştirmeden veya değiştirdikten sonra da ana menüye dön butonu ile bu ekrandan çıkabilirsiniz.
+
 ![image](https://github.com/user-attachments/assets/df4ecba3-ff9a-41d5-999c-626525ed0216)
 
