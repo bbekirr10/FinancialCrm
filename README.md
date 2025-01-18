@@ -26,7 +26,6 @@
 
 
 :world_map:  6)Altıncı adımda FrmBankProcess formu oluşturdum. Bu form ile yeni bir banka hareketi oluşturabilir, mevcut hareketlerimizi silebilir veya güncelleyebiliriz. Tabiki tüm hareketlerimizide listeleyebiliriz. Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
-Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
 
 ![image](https://github.com/user-attachments/assets/4f672f09-798a-411c-a262-eeeba30b26f3)
 
