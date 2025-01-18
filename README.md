@@ -16,8 +16,7 @@
 Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
 ![4](https://github.com/user-attachments/assets/4bf92a43-785b-480c-8f7c-ad581915721e)
 
-:world_map:  5)Beşinci adımda FrmSpending formunu projeye dahil ettim. FrmSpending formu ile Giderleri form ekranında listeyelebiliriz. Yeni bir gider oluşturabilir, mevcut giderleri güncelleyebilir veya silebiliz.
-Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
+:world_map:  5)Beşinci adımda FrmSpending formunu projeye dahil ettim. FrmSpending formu ile Giderleri form ekranında listeyelebiliriz. Yeni bir gider oluşturabilir, mevcut giderleri güncelleyebilir veya silebiliz.Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
 ![5](https://github.com/user-attachments/assets/8cae1775-1834-48d7-83c1-f07060efa32f)
 
 :world_map:  6)Altıncı adımda FrmBankProces formu oluşturdum. Bu form ile yeni bir banka hareketi oluşturabilir, mevcut hareketlerimizi silebilir veya güncelleyebiliriz. Tabiki tüm hareketlerimizide listeleyebiliriz. Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
