@@ -9,7 +9,7 @@
 :world_map:   4)Dördüncü adımda FrmCategories formunu oluşturdum. Form ekranını kullanarak yeni bir kategori ekleyebiliriz, buttonlarımızı kullanarak kategorilerimizi listeleyebilir, yeni kategori ekleyebilir, kategorilerimizi silebilir veya güncelleyebiliriz.
 ![4](https://github.com/user-attachments/assets/4bf92a43-785b-480c-8f7c-ad581915721e)
 
-:world_map:  5)Beşinci adımda FrmSpending formunu projeye dahil ettim. FrmSpending formu ile Gideleri form ekranında listeyelebiliriz. Yeni bir gider oluşturabilir, mevcut giderleri güncelleyebilir veya silebiliz.
+:world_map:  5)Beşinci adımda FrmSpending formunu projeye dahil ettim. FrmSpending formu ile Giderleri form ekranında listeyelebiliriz. Yeni bir gider oluşturabilir, mevcut giderleri güncelleyebilir veya silebiliz.
 ![5](https://github.com/user-attachments/assets/8cae1775-1834-48d7-83c1-f07060efa32f)
 
 :world_map:  6)Altıncı adımda FrmBankProces formu oluşturdum. Bu form ile yeni bir banka hareketi oluşturabilir, mevcut hareketlerimizi silebilir veya güncelleyebiliriz. Tabiki tüm hareketlerimizide listeleyebiliriz.
@@ -23,3 +23,4 @@
 ![image](https://github.com/user-attachments/assets/df4ecba3-ff9a-41d5-999c-626525ed0216)
 
 
+:world_map: Son olarak menüdeki çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
