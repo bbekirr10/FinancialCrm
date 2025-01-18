@@ -25,7 +25,7 @@
 ![5](https://github.com/user-attachments/assets/7e866ed8-83e9-4531-a736-8b56afd21a2f)
 
 
-:world_map:  6)Altıncı adımda FrmBankProces formu oluşturdum. Bu form ile yeni bir banka hareketi oluşturabilir, mevcut hareketlerimizi silebilir veya güncelleyebiliriz. Tabiki tüm hareketlerimizide listeleyebiliriz. Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
+:world_map:  6)Altıncı adımda FrmBankProcess formu oluşturdum. Bu form ile yeni bir banka hareketi oluşturabilir, mevcut hareketlerimizi silebilir veya güncelleyebiliriz. Tabiki tüm hareketlerimizide listeleyebiliriz. Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
 Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
 
 ![image](https://github.com/user-attachments/assets/4f672f09-798a-411c-a262-eeeba30b26f3)
