@@ -56,6 +56,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FinancialCrmDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinancialCrmDbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialCrmDbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinancialCrmDbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialCrmDbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinancialCrmDbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBankProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBankProcess.Designer.cs">
+      <DependentUpon>FrmBankProcess.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBanks.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,11 +89,35 @@
     <Compile Include="FrmBilling.Designer.cs">
       <DependentUpon>FrmBilling.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSettings.Designer.cs">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSpending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSpending.Designer.cs">
+      <DependentUpon>FrmSpending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategories.Designer.cs">
+      <DependentUpon>FrmCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmDashboard.Designer.cs">
       <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserLogin.Designer.cs">
+      <DependentUpon>FrmUserLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\BankProcesses.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -112,14 +157,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBankProcess.resx">
+      <DependentUpon>FrmBankProcess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBanks.resx">
       <DependentUpon>FrmBanks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBilling.resx">
       <DependentUpon>FrmBilling.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmSettings.resx">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSpending.resx">
+      <DependentUpon>FrmSpending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategories.resx">
+      <DependentUpon>FrmCategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDashboard.resx">
       <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserLogin.resx">
+      <DependentUpon>FrmUserLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -134,6 +194,39 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="FinancialCrmDbDataSet.xsc">
+      <DependentUpon>FinancialCrmDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FinancialCrmDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinancialCrmDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinancialCrmDbDataSet.xss">
+      <DependentUpon>FinancialCrmDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FinancialCrmDbDataSet1.xsc">
+      <DependentUpon>FinancialCrmDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FinancialCrmDbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinancialCrmDbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinancialCrmDbDataSet1.xss">
+      <DependentUpon>FinancialCrmDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FinancialCrmDbDataSet2.xsc">
+      <DependentUpon>FinancialCrmDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FinancialCrmDbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinancialCrmDbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinancialCrmDbDataSet2.xss">
+      <DependentUpon>FinancialCrmDbDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </None>
