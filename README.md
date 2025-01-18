@@ -12,4 +12,7 @@
 :world_map:  5)Beşinci adımda FrmSpending formunu projeye dahil ettim. FrmSpending formu ile Gideleri form ekranında listeyelebiliriz. Yeni bir gider oluşturabilir, mevcut giderleri güncelleyebilir veya silebiliz.
 ![5](https://github.com/user-attachments/assets/8cae1775-1834-48d7-83c1-f07060efa32f)
 
+![image](https://github.com/user-attachments/assets/ceee914e-d412-4f16-bfc5-46ac8652f23f)
 
+
+![image](https://github.com/user-attachments/assets/df4ecba3-ff9a-41d5-999c-626525ed0216)
