@@ -73,7 +73,7 @@ namespace FinancialCrm
         {
             FrmBilling frm = new FrmBilling();
             frm.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)

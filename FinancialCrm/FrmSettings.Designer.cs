@@ -33,6 +33,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.txtUserId = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -85,6 +85,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(526, 222);
             this.panel2.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(356, 162);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 36);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Ana Menüye Dön";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtUserId
             // 
@@ -163,18 +175,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Yeni Kullanıcı Ad ve Şifre\r\n";
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(356, 162);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 36);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Ana Menüye Dön";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FrmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,7 +184,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FrmSettings";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSettings";
             this.Load += new System.EventHandler(this.FrmSettings_Load);
             this.panel1.ResumeLayout(false);
