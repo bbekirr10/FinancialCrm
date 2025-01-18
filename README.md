@@ -2,7 +2,8 @@
  
 :world_map:  1)İlk adımımız olarak FrmBanks formumuzu oluşturduk. Burada bankalardaki bakiyelerimizi ve son 5 Banka hareketlerimizi form ekranına yazdırdık.
 Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
-![1](https://github.com/user-attachments/assets/53510bcb-56ab-42af-ba8d-a5524a60d163)
+![1](https://github.com/user-attachments/assets/2a8c85f7-02c4-4116-861e-3ec9caf7f386)
+
 
 :world_map:  2)İkinci adımımız olarak FrmBilling formumuzu oluşturduk. Bu ekranda faturalarımızı listeyebilir, yeni fatura ekleyebilir, mevcut faturalarımızı silebilir veya güncelleyebiliriz.
 Çıkış butonuna tıklayarak form ekranını kapatabilirsiniz.
