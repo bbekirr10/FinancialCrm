@@ -15,9 +15,10 @@
 :world_map:  6)Altıncı adımda FrmBankProces formu oluşturdum. Bu form ile yeni bir banka hareketi oluşturabilir, mevcut hareketlerimizi silebilir veya güncelleyebiliriz. Tabiki tüm hareketlerimizide listeleyebiliriz.
 ![image](https://github.com/user-attachments/assets/ceee914e-d412-4f16-bfc5-46ac8652f23f)
 
-:world_map:  7)Yedinci adımda bir FrmSettings formu oluşturdum. Bu formun amacı mevcut kullanıcı adımızı ve şifremizi değiştirmemizi sağlıyor. Kullanıcı adı ve şifre değiştirmeden veya değiştirdikten sonra da ana menüye dön butonu ile bu ekrandan çıkabilirsiniz.
+ :world_map:  7)Yedinci adım olarak FrmUserLogin formu oluşturdum. FrmUserLogin formu ile banka menüsüne giriş yapabiliriz. Mevcut kullanıcı adı ve şifremiz, Kullanıcı Adı:Admin Şifre:123
+ ![6](https://github.com/user-attachments/assets/544a0873-ca1f-4321-a388-3ba9d8ea3670)
+
+:world_map:  8)Sekizinci adımda bir FrmSettings formu oluşturdum. Bu formun amacı mevcut kullanıcı adımızı ve şifremizi değiştirmemizi sağlıyor. Kullanıcı adı ve şifre değiştirmeden veya değiştirdikten sonra da ana menüye dön butonu ile bu ekrandan çıkabilirsiniz.
 ![image](https://github.com/user-attachments/assets/df4ecba3-ff9a-41d5-999c-626525ed0216)
 
- :world_map:  8)Sekizinci ve son adım olarak FrmUserLogin formu oluşturdum. FrmUserLogin formu ile banka menüsüne giriş yapabiliriz. Mevcut kullanıcı adı ve şifremiz, Kullanıcı Adı:Admin Şifre:123
- FrmSetting formunu kullanarak kullanıcı adını ve şifresini değiştirebilirsiniz.
- ![6](https://github.com/user-attachments/assets/544a0873-ca1f-4321-a388-3ba9d8ea3670)
+
